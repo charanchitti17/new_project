@@ -1,7 +1,7 @@
 const ArticleReadingPage = () => {
     return (
         <>
-            <h1>This is ArticleReading Page</h1>
+            <h1>This is Article Reading Page</h1>
         </>
     );
 };

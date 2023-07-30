@@ -9,7 +9,8 @@ const HomePage = () => {
                 Journey Journals is one of the most popular Journal amongst the different types of journals.
             </p>
                 <Link to="/register" >Register</Link>
-                <Link to="/logIn" >LogIn</Link>
+            <Link to="/logIn" >LogIn</Link>
+            <Link to='/articleCreatePage'>+</Link>
         </>
     );
 };

@@ -8,6 +8,7 @@ import Registration from './pages/RegistrationPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HelpPage from './pages/HelpPage';
 import ProfilePage from './pages/ProfilePage';
+import ArticleCreatePage from './pages/ArticleCreatePage'
 import NavBar from './components/NavBar';
 const App = () => { 
   return (
@@ -24,7 +25,8 @@ const App = () => {
           <Route path='/explore/:article_id' element={<ArticleReadingPage />}></Route>
             <Route path='/:article_id' element={<ArticleReadingPage />}></Route>
           <Route path='/logIn' element={<LogIn/>}></Route>
-          <Route path='/register' element={<Registration/>}></Route>
+            <Route path='/register' element={<Registration />}></Route>
+            <Route path='/articleCreatePage' element={<ArticleCreatePage/>}></Route>
         </Routes>
       </div>
       </div>
